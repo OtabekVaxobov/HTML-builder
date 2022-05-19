@@ -10,6 +10,10 @@
   "bugs": {
     "url": "https://github.com/EvgeniiMal/html-builder-black/issues"
   },
+  "engines": {
+    "yarn": "v3.2.0",
+    "node": "v16.14.0"
+  },
   "homepage": "https://github.com/EvgeniiMal/html-builder-black#readme",
   "devDependencies": {
     "@types/node": "^16.11.4",
