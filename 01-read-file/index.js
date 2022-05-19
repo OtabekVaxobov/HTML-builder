@@ -13,10 +13,14 @@ lineReader.on('line', function (err, line) {
 // OR
 // const fs = require('fs');
 
-// fs.readFile('01-read-file/text.txt', 'utf8', (err, data) => {
-//   if (err) {
-//     console.error(err);
-//     return;
+// let foo = () => {
+//   try {
+//     fs.readFile('01-read-file/text.tt', 'utf8', (_error, data) => {
+//       console.log(data);
+//     });
+//   } catch (error) {
+//     console.error(error);
 //   }
-//   console.log(data);
-// });
+// };
+
+// foo();
